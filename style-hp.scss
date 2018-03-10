@@ -1,15 +1,14 @@
-$red: #E51711;
+$red: #FF322C;
 
 body {
 	margin:0;
 	padding:0;
-	background-color:$red;
 }
 
 #header {
 	height: 100px;
 	width: 100%;
-
+	background-color: $red;
 }
 .img-fluid {
 	height: auto;
@@ -22,8 +21,7 @@ body {
 #banderolle {
 	height: 300px;
 	width: 100%;
-	margin: 0 auto;
-
+	margin: 10 auto;
 }
 
 #photo {
@@ -47,14 +45,20 @@ body {
 		color: #BAD7DD;
 	}
 }
+.card {
+	.card-body {
+		background-color: #B8C4CC;
+		padding: 25px;
+		color: black;
+		padding: 50px;
+	}
+	.card-title {
+		text-align: center;
+	}
+	.text-muted {
+		float: left;
+	}
 
-.card-body {
-	background-color: #B8C4CC;
-	padding: 25px;
-	color: black;
-	h5 {
-	margin-left: 25px;
-}
 }
 
 .footer {
