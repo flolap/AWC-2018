@@ -1,0 +1,51 @@
+.page-header {
+  max-height: 120px;
+  text-align: center;
+  padding: 10px;
+  box-sizing: content-box;
+}
+
+.page-header h1 {
+  font-size: 80px;
+  font-family: 'maxine_scriptregular', cursive;
+  word-spacing: 15px;
+  color: black;
+}
+
+.card .card-body {
+  background-color: #CAD8E0;
+  padding: 25px;
+  color: black;
+  padding: 50px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.card .card-title {
+  text-align: center;
+  text-decoration: underline;
+  padding-bottom: 10px;
+}
+
+.card .text-muted {
+  float: left;
+}
+
+.card .card-text {
+  margin: 10px;
+}
+
+.card h5 {
+  padding: 20px;
+  text-align: left;
+  float: left;
+}
+
+.card img {
+  height: 300px;
+  width: auto;
+  float: right;
+}
+
+.card p {
+  margin-right: 20px;
+}

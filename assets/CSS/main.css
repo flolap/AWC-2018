@@ -1,6 +1,6 @@
 @font-face {
   font-family: 'maxine_scriptregular';
-  src: url("assets/fonts/Maxine/maxine-webfont.woff2") format("woff2"), url("assets/fonts/Maxine/maxine-webfont.woff") format("woff");
+  src: url("../fonts/Maxine/maxine-webfont.woff2") format("woff2"), url("../fonts/Maxine/maxine-webfont.woff") format("woff");
   font-weight: normal;
   font-style: normal;
 }
@@ -11,19 +11,6 @@ body {
   background-color: #bfdbf7;
 }
 
-.page-header {
-  text-align: center;
-  padding: 10px;
-  background-color: #bfdbf7;
-}
-
-.page-header h1 {
-  font-size: 80px;
-  font-family: 'maxine_scriptregular', cursive;
-  word-spacing: 15px;
-  color: black;
-}
-
 .img-fluid {
   height: auto;
   max-width: 100%;
@@ -32,7 +19,7 @@ body {
 }
 
 #banderolle {
-  height: 300px;
+  max-height: 300px;
   width: 100%;
   margin: 10 auto;
 }
@@ -47,30 +34,15 @@ body {
 .navbar {
   background-color: #e53935;
   font-size: 30px;
-  font-family: 'Ubuntu', sans-serif;
+  font-family: 'Mina', sans-serif;
 }
 
 .nav-link {
-  color: #003e1f;
+  color: #000;
 }
 
 .nav-link:hover {
   color: #BAD7DD;
-}
-
-.card .card-body {
-  background-color: #CAD8E0;
-  padding: 25px;
-  color: black;
-  padding: 50px;
-}
-
-.card .card-title {
-  text-align: center;
-}
-
-.card .text-muted {
-  float: left;
 }
 
 .footer {
