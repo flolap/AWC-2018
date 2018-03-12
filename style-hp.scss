@@ -1,15 +1,35 @@
-$red: #FF322C;
+
+$red: #e53935;
+
+@font-face {
+    font-family: 'maxine_scriptregular';
+    src: url('assets/fonts/Maxine/maxine-webfont.woff2') format('woff2'),
+         url('assets/fonts/Maxine/maxine-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
 
 body {
 	margin:0;
 	padding:0;
+	background-color: #bfdbf7;
 }
 
-#header {
-	height: 100px;
-	width: 100%;
-	background-color: $red;
+.page-header {
+	text-align: center;
+	padding: 10px;
+	background-color: #bfdbf7;
+	h1 {
+	font: {
+		size: 80px;
+		family: 'maxine_scriptregular', cursive;
+	}
+	word-spacing: 15px;
+	color: black;
 }
+}
+
 .img-fluid {
 	height: auto;
 	max-width: 100%;
@@ -32,14 +52,14 @@ body {
 }
 
 .navbar {
-	background-color: white;
+	background-color: $red;
 	font-size: 30px;
-	font-family: 'Amatic SC', cursive;
-	letter-spacing: 0.08em;
+	font-family: 'Ubuntu', sans-serif;
+
 }
 
 .nav-link {
-	color: #000;
+	color: #003e1f;
 
 	&:hover {
 		color: #BAD7DD;
@@ -47,7 +67,7 @@ body {
 }
 .card {
 	.card-body {
-		background-color: #B8C4CC;
+		background-color: #CAD8E0;
 		padding: 25px;
 		color: black;
 		padding: 50px;
